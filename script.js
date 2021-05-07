@@ -13,7 +13,7 @@ $.ajax({
 
     console.log(response);
 
-    $(".city").html("<h1>" + response.name + "Weather Details by Peter the Great</h1>");
+    $(".city").html("<h1>" + response.name + " Weather Details by Peter the Great</h1>");
     $(".wind").text("Wind Speed: " + response.wind.speed);
     $(".humidity").html("Humidity: " + response.main.humidity);
 })
